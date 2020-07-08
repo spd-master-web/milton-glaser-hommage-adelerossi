@@ -1,0 +1,46 @@
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+
+  background-color: var(--white);
+  font-family:'Helvetica', sans-serif;
+  font-size: 16px; /* font base */
+  color: var(--black);
+  padding: 15px;
+}
+
+header {
+  text-align: center;
+}
+
+
+.text {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#i, #hearth, #n, #y {
+  opacity: 0;
+}
